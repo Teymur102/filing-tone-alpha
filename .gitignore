@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+# raw downloads and caches (re-created by `python run.py`)
+data/
+# Hugging Face model cache, if redirected into the repo
+.cache/
+hf_cache/
+.coverage
